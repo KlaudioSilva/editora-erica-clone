@@ -1,10 +1,10 @@
 # Editora Érica - clone do site
-![Logotipo da revista e do site DJ Sound](https://github.com/KlaudioSilva/dj-sound-clone/blob/main/images/lg_djsound_2.jpg)
+![Logotipo da revista e do site DJ Sound](https://github.com/KlaudioSilva/editora-erica-clone/blob/main/imagens/logo_erica.png)
 
 Este repositório é parte da série de estudos onde faço clones de alguns sites ou portais reais.
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM EXECUÇÃO&color=YELLOW&style=for-the-badge"/>
+<img loading="lazy" src="https://img.shields.io/badge/STATUS-EXECUTANDO-BLUE?style=flat&logoColor=yellow&label=STATUS&labelColor=gray&color=yellow"/>
 </p>
 
 ## :pencil2: Sobre o projeto
