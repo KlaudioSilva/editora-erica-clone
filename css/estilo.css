@@ -1,1 +1,41 @@
 /*** Formatando o conteúdo do site ***/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../imagens/bg.jpg) top repeat-x;
+}
+
+#container{
+    width: 981px;
+    margin: 0 auto;
+}
+
+#cabecalho .logo{
+    float: left;
+}
+
+#cabecalho .leia-livro{
+    float: left;
+}
+
+#cabecalho p{
+    font-size: 0.8em;
+    margin-top: 40px;
+    margin-left: -287px;
+    display: inline;
+    float: left;
+}
+
+#cabecalho .bom-dia{
+    font-size: 0.7em;
+}
+
+#cabecalho .login{
+    float: left;
+    margin-top: 35px;
+    margin-left: -192px;
+}
