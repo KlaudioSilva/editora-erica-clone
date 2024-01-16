@@ -9,11 +9,22 @@ body{
     background: url(../imagens/bg.jpg) top repeat-x;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 #container{
     width: 981px;
     margin: 0 auto;
 }
 
+/*** Cabeçalho ***/
 #cabecalho .logo{
     float: left;
 }
@@ -38,4 +49,131 @@ body{
     float: left;
     margin-top: 35px;
     margin-left: -192px;
+}
+
+/* navegação superior do cabeçalho */
+#nav-cliente{
+    margin-left: 100px;
+    padding-top: 7px;
+    float: left;
+}
+
+#nav-cliente li{
+    float: left;
+}
+
+#nav-cliente a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0 0.5em;
+    color: #fff;
+    background: url(../imagens/separador2.gif) no-repeat left center;
+}
+
+#nav-cliente a:hover{
+    color: #093859;
+}
+
+#nav-cliente .primeira a{
+    background: none;
+}
+
+#nav-cliente a.negrito{
+    font-weight: bold;
+}
+
+#nav-cliente img{
+    margin-top: -7px;
+}
+
+/* navegação das páginas do site */
+#nav-site{
+    float: left;
+    margin-top: 13px;
+}
+
+#nav-site li{
+    float: left;
+}
+
+#nav-site a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0 0.5em;
+    color: #093859;
+    background: url(../imagens/separador3.gif) no-repeat left center;
+}
+
+#nav-site a:hover{
+    color: #fff;
+}
+
+#nav-site .primeira a{
+    background: none;
+}
+
+#nav-site img{
+    margin-top: -09px;
+}
+
+/* formulário de pesquisa do cabeçalho */
+#form-pesquisa{
+    width: 799px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 181px;
+    margin-top: -30px;
+    font-size: 0.9em;
+    background: #eeeeee;
+    color: #093859;
+    float: left;
+}
+
+#form-pesquisa label{
+    margin-left: 10px;
+}
+
+#form-pesquisa .radio{
+    margin-left: 6px;
+}
+
+#form-pesquisa .campo{
+    width: 317px;
+}
+
+#form-pesquisa .ok{
+    width: 35px;
+}
+
+/* navegação do catálago de livros */
+.titulo{
+    margin-top: 0;
+    width: 181px;
+    background: #ede9e9;
+}
+.marcador{
+    margin-left: 4px;
+    margin-top: 3px;
+    float: left;
+}
+
+.titulo-catalago{
+    font-weight: bold;
+    font-size: 0.85em;
+    margin-left: 15px;
+    color: #000;
+}
+
+.nav-catalago{
+    width: 164px;
+    font-size: 0.85em;
+    margin-left: 15px;
+}
+
+.nav-catalago li a{
+    color: #093859;
+}
+
+.nav-catalago li a:hover{
+    color: #ffb74e;
 }
