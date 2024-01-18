@@ -73,7 +73,7 @@
                 <div id="form-pesquisa">
                     <form>
                         <label>Pesquisar por:</label>
-                        <input class="radio" type="radio" name="pesquisa"> Autor
+                        <input class="radio" type="radio" name="pesquisa" checked> Autor
                         <input class="radio" type="radio" name="pesquisa"> Título
                         <input class="radio" type="radio" name="pesquisa"> Código
                         <input class="radio campo" type="text" name="campo">
@@ -84,7 +84,7 @@
             </header>
 
             <!--navegação pelo catálago de livros-->
-            <nav>
+            <nav id="catalago-livros">
 
                 <!--livros sobre Adm e negócios-->
                 <div class="titulo">
@@ -317,11 +317,27 @@
 
             </nav>
 
-            <main>
-                Aqui vai o conteúdo principal da página
+            <main id="principal">
+                <img src="imagens/natal2011.jpg" alt="banner do natal de 2011">
+
+                <section>
+                    <div class="ultimos-lancamentos">
+                        <p>
+                            Últimos lançamentos
+                        </p>
+                    </div>
+                </section>
             </main>
 
-            <div>
+            <aside id="lateral">
+
+                <a href="#"><img src="imagens/iatria.jpg" class="atria"></a>
+
+                <a href="#"><img src="imagens/cadastroprofessor.jpg" ></a>
+                
+            </aside>
+
+            <div id="aviso" style="clear: both;">
                 <p>
                     À venda nas principais livrarias, lojas e sites especializados ou no showroom da Editora Érica.
                 </p>
@@ -330,7 +346,7 @@
                 </p>
             </div>
 
-            <footer>
+            <footer id="rodape">
                 Aqui vai o conteúdo do rodapé
             </footer>
 
