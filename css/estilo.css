@@ -215,5 +215,14 @@ a{
 }
 
 #lateral .banners{
-    margin-top: 5px;
+    margin-top: 20px;
+}
+
+#lateral .banners img:hover{
+    opacity: 0.7;
+}
+
+#lateral .infobook{
+    margin-top: 38px;
+    margin-left: 11px;
 }
