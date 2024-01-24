@@ -231,7 +231,7 @@ a{
 .rodape-aviso{
     height: 77px;
     background: #f0f0f0;
-    font-size: 0.9em;
+    font-size: 0.85em;
     text-align: center;
     padding-top: 30px;
 }
@@ -239,12 +239,56 @@ a{
 .rodape-pagamento{
     height: 69px;
     background: #4293cb;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.rodape-pagamento p{
+    margin-top: 5px;
+}
+
+.rodape-pagamento img{
+    margin-top: 18px;
+}
+
+.rodape-pagamento .formas-pgto{
+    width: 80px;
+    margin-left: 198px;
+    float: left;
+}
+
+.rodape-pagamento .pgto-credito{
+    width: 122px;
+    float: left;
+    text-align: center;
+    margin-left: 93px;
+}
+
+.rodape-pagamento .pgto-boleto{
+    width: 42px;
+    float: left;
+    text-align: center;
+    margin-left: 32px;
+}
+
+.rodape-pagamento .pgto-debito{
+    width: 109px;
+    float: left;
+    text-align: center;
+    margin-left: 31px;
+}
+
+.rodape-pagamento .pgto-deposito{
+    width: 124px;
+    float: left;
+    text-align: center;
+    margin-left: 28px;
 }
 
 .rodape-base{
     height: 171px;
     background: url(../imagens/rodape.jpg) repeat-x;
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: #fff;
 }
 
