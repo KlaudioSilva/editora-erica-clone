@@ -226,3 +226,40 @@ a{
     margin-top: 38px;
     margin-left: 11px;
 }
+
+/*** conteúdos do rodapé ***/
+.rodape-aviso{
+    height: 77px;
+    background: #f0f0f0;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.rodape-pagamento{
+    height: 69px;
+    background: #4293cb;
+}
+
+.rodape-base{
+    height: 171px;
+    background: url(../imagens/rodape.jpg) repeat-x;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.rodape-base img{
+    margin-left: 150px;
+    margin-top: 40px;
+    float: left;
+}
+
+.rodape-base p{
+    float: left;
+    margin-left: 281px;
+    margin-top: -92px;
+}
+
+.rodape-base .negrito{
+    font-weight: bold;
+}
