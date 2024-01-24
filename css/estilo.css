@@ -203,6 +203,27 @@ a{
     line-height: 30px;
 }
 
+#principal .livro .capa-livro{
+    width: 132px;
+}
+
+#principal .livro .preco-livro{
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+#principal .livro .titulo-livro{
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#principal .livro .autor{
+    font-size: 0.75em;
+    color: #66667d;
+}
+
 /*** conteúdo da lateral ***/
 #lateral{
     width: 181px;
