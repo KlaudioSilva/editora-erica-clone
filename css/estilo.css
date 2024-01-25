@@ -216,6 +216,7 @@ a{
 
 #principal .livro .preco-livro{
     margin-left: 8px;
+    margin-right: 10px;
     margin-top: 62px;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
@@ -242,7 +243,12 @@ a{
 
 /*primeira sub-seção*/
 .primeira-sub{
-    margin-top: 48px;
+    margin-top: 68px;
+}
+
+/*segunda sub-seção*/
+.segunda-sub{
+    padding-top: 58px;
 }
 
 /*** conteúdo da lateral ***/
