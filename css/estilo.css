@@ -184,6 +184,7 @@ a{
 /*** conteúdo principal ***/
 #principal{
     width: 597px;
+    height: 2500px;
     margin-left: 11px;
     float: left;
 }
@@ -243,12 +244,42 @@ a{
 
 /*primeira sub-seção*/
 .primeira-sub{
-    margin-top: 68px;
+    margin-top: 48px;
 }
 
 /*segunda sub-seção*/
 .segunda-sub{
-    padding-top: 58px;
+    margin-top: 348px;
+}
+
+/*terceira sub-seção*/
+.terceira-sub{
+    margin-top: 630px;
+}
+
+/*quarta sub-seção*/
+.quarta-sub{
+    margin-top: 930px;
+}
+
+/*quinta sub-seção*/
+.quinta-sub{
+    margin-top: 1246px;
+}
+
+/*sexta sub-seção*/
+.sexta-sub{
+    margin-top: 1511px;
+}
+
+/*sétima sub-seção*/
+.setima-sub{
+    margin-top: 1778px;
+}
+
+/*oitva sub-seção*/
+.oitava-sub{
+    margin-top: 2091px;
 }
 
 /*** conteúdo da lateral ***/
